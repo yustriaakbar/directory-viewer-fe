@@ -45,17 +45,17 @@ src/
 - Modern browser (Chrome, Edge, Firefox)
 
 ---
+```
+---
 
 ## Installation
-
-### Install dependencies
-
+```bash
 bun install
+```
+
+```bash
 bun run dev
-http://localhost:5173
-
-
----
+```
 
 ## UI Components
 
