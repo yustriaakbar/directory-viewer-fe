@@ -2,6 +2,7 @@
 
 ## Description
 Frontend application that mimics Windows Explorer behavior:
+
 - Folder tree on the left panel
 - Folder & file list on the right panel
 - Expand / collapse folder tree
@@ -13,27 +14,29 @@ Built using Vue 3 with Composition API.
 ---
 
 ## Tech Stack
-- Framework: **Vue 3**
-- Language: **TypeScript**
-- Build Tool: **Vite**
-- Runtime: **Bun v1.3.5**
-- UI Pattern: **Component-based architecture**
+- Framework: Vue 3
+- Language: TypeScript
+- Build Tool: Vite
+- Runtime: Bun v1.3.5+
+- UI Pattern: Component-based architecture
 
 ---
 
 ## Project Structure
+```text
 src/
 ├── components/
-│ ├── FolderTree.vue
-│ ├── RightPanel.vue
-│ ├── SearchBar.vue
+│   ├── FolderTree.vue
+│   ├── RightPanel.vue
+│   └── SearchBar.vue
 │
 ├── api/
-│ └── folderApi.ts
+│   └── folderApi.ts
+│
+├── assets/
 │
 ├── App.vue
-├── main.ts
-└── assets/
+└── main.ts
 
 ---
 
