@@ -1,5 +1,7 @@
 # Folder Explorer Frontend
 
+![Deskripsi gambar](ss1.png)
+
 ## Description
 Frontend application that mimics Windows Explorer behavior:
 
